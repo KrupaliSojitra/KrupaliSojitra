@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider with Animation</title>
+    <style>
+        div{
+            height: 600px;
+            width: 100%;
+            background-image: url('sunflower.jpg');
+            background-repeat: no-repeat;
+            animation-name: changeimg;
+            animation-duration: 5s;
+            animation-direction: linear;
+            animation-iteration-count: infinite;
+            background-size: 100% 80%;
+        }
+        @keyframes changeimg{
+            0%{
+                background-image: url('sunflower.jpg');
+            }
+            20%{
+                background-image: url('white tent.jpg');
+            }
+            40%{
+                background-image: url('tree.jpg');
+            }
+            60%{
+                background-image: url('valley.jpg');
+            }
+            80%{
+                background-image: url('boat.jpg');
+            }
+            100%{
+                background-image: url('tent.jpg');
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
