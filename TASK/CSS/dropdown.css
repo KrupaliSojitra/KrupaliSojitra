@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}  
+    body{
+    background-image: url('laptop2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    header{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    width: 15%;
+    height: 100px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 100px;
+}
+nav{
+    width: 85%;
+    height: 100px;
+    background-color: black;
+    float: right;
+}
+nav ul{
+    float: right;
+    font-size: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    line-height: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li ul li{
+    display: block;
+}
+nav ul ul{
+    display: none;
+}
+nav ul ul li{
+    font-size: 25px;
+    width: 200px;
+    line-height: 30px;
+    position: relative;
+}
+nav ul li:hover  ul{
+    display: block;
+    background-color: black;
+}
+nav ul li:hover a{
+    color: aqua;
+}
+nav ul ul ul{
+    top: 0px;
+    left: 200px;
+}
+nav ul ul li:hover a{
+    color: palevioletred;
+}
+nav ul ul ul li{
+    width: 120px;
+}
+.html{
+    position: absolute;
+
+}
+.html li{
+    display: none;
+}
+ul li ul li:hover .html li{
+    display: block;
+}
+.css{
+    position: absolute;
+
+}
+.css li{
+    display: none;
+}
+ul li ul li:hover .css li{
+    display: block;
+}
+.java-script{
+    position: absolute;
+
+}
+.java-script li{
+    display: none;
+}
+ul li ul li:hover .java-script li{
+    display: block;
+}
+.bootstrap{
+    position: absolute;
+}
+.bootstrap li{
+    display: none;
+}
+ul li ul li:hover .bootstrap li{
+    display: block;
+}

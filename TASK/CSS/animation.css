@@ -1,0 +1,58 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-image: url('leaves.jpg');
+    background-repeat: no-repeat;
+    animation-name: transform;
+    animation-duration: 10s;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+    background-size: 100% 90%;
+    margin-top: 120px;
+}
+@keyframes transform{
+    0%{
+        background-image: url('leaves.jpg');
+        transform: rotate(0deg);
+    }
+    10%{
+        background-image: url('natural.jpg');
+        transform: rotate(36deg);
+    }
+    20%{
+        background-image: url('travel\ bag.jpg');
+        transform: rotate(72deg);
+    }
+    30%{
+        background-image: url('cartoon.jpg');
+        transform: rotate(108deg);
+    }
+    40%{
+        background-image: url('Pizza.jpg');
+        transform: rotate(144deg);
+    }
+    50%{
+        background-image: url('Burger.jpg');
+        transform: rotate(180deg);
+    }
+    60%{
+        background-image: url('Candy\ 2.jpg');
+        transform: rotate(216deg);
+    }
+    70%{
+        background-image: url('Cone.jpg');
+        transform: rotate(252deg);
+    }
+    80%{
+        background-image: url('Pizza\ 3.jpg');
+        transform: rotate(288deg);
+    }
+    90%{
+        background-image: url('boat.jpg');
+        transform: rotate(324deg);
+    }
+    100%{
+        background-image: url('Candy\ 3.jpg');
+        transform: rotate(360deg);
+    }
+}

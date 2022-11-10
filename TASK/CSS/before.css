@@ -1,0 +1,17 @@
+h1{
+    position: relative;
+    top: 300px;
+}
+div::before{
+    content: "";
+    position: absolute;
+    background-color: plum;
+    height: 300px;
+    width: 0px;
+    top: 200px;
+    left: 610px;
+    transition: 5s;
+}
+div:hover::before{
+    width: 300px;
+}

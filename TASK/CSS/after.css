@@ -1,0 +1,18 @@
+h1{
+    position: relative;
+    top: 320px;
+}
+div::after{
+    content: "";
+    width: 0px;
+    height: 400px;
+    background-color: palevioletred;
+    position: absolute;
+    display: block;
+    transition: 5s;
+    top: 200px;
+    left: 500px;
+}
+div:hover::after{
+    width: 500px;
+}
