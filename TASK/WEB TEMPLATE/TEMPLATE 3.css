@@ -1,0 +1,202 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+}
+section{
+    width: 100%;
+    height: 100px;
+}
+ section img{
+    width: 100%;
+    height: 960px;
+ }
+header{
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    width: 15%;
+    height: 50px;
+    float: left;
+    background-color: red;
+    color: aliceblue;
+}
+.logo h1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+nav{
+    width: 85%;
+    height: 50px;
+    float: right;
+    background-color: black;
+}
+nav ul{
+    float: right;
+    font-size: 25px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.main{
+    width: 300px;
+    height: 300px;
+    margin-left: 35%;
+    color: aliceblue;
+    padding: 100px;
+}
+.main .col1{
+    width: 300PX;
+    height: 50PX;
+    display: flex;
+    line-height: 80px;
+    /* padding: 20PX; */
+}
+.col1 h3{
+    background-color: red;
+}
+.main1{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    margin-top: 960px;
+    color: aliceblue;
+}
+.main1 h3{
+    margin-top: 50px;
+}
+.main2{
+    height: 50px;
+    width: 20%;
+    border-top: 2px solid aliceblue;
+    display: flex;
+    padding: 50px;
+}
+.main1 p{
+    width: 600px;
+    height: 400px;
+    /* margin-left: 400px; */
+}
+.main3{
+    width: 100%;
+    height: 800px;
+    background-image: url('conference1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.main3 h1{
+    text-align: center;
+    padding: 100px;
+}
+.main3 h4{
+    margin-left: 630px;
+    padding: 20px;
+    border-top: 1px solid aliceblue;
+}
+.main3 p{
+    margin-left: 650px;
+}
+.main4{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+    padding-left: 600px;
+    padding-top: 50px;
+
+}
+.main4 .col5,.col6,.col7,.col8{
+    width: 100px;
+    height: 80px;
+    border-bottom: 1px solid aliceblue;
+    /* border-right: 1px solid aliceblue; */
+}
+.main5{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    line-height: 70PX;
+}
+.main5 p{
+    border-top: 1px solid aliceblue;
+    width: 400px;
+    margin-top: 20px;
+}
+.main5 img{
+    width: 100%;
+    height: 400px;
+}
+.main5 .col9,.col10,.col11{
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.main5 .col9{
+    margin-left: 255px;
+}
+.main5 .col10,.col11{
+    margin-left: 50px;
+}
+.main6{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    color: aliceblue;
+}
+.main6 .col12,.col13,.col14{
+    width: 100%;
+    height: 150px;
+}
+.main6 .A{
+    display: flex;
+    line-height: 55px;
+    border-top: 1px solid aliceblue;
+}
+.main6 h1{
+    text-align: center;
+    padding: 20px;
+}
+.main7 img{
+    height: 500px;
+    width: 100%;
+}
+.main8{
+    height: 200px;
+    background-color: red;
+    line-height: 20px;
+    padding-top: 30px;
+    color: aliceblue;
+}
+.main8 h1{
+    margin-left: 600px;
+}
+.main8 .col15{
+    float: left;
+    margin-left: 600px;
+    border-top: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    margin-top: 40px;
+    line-height: 25px;
+}
+.main8 .col16{
+    float: right;
+    margin-right: 488px;
+    margin-top: 40px;
+    border-top: 1px solid aliceblue;
+    line-height: 25px;
+}
+.main8 input{
+    background-color: red;
+}
