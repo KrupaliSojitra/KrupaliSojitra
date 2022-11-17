@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 13</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        user-select: none;
+    }  
+        body{
+        background-image: url('fastfood.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        header{
+        width: 100%;
+        height: 100px;
+    }
+    .logo{
+        width: 15%;
+        height: 100px;
+        float: left;
+    }
+    .logo img{
+        width: 100%;
+        height: 100px;
+    }
+    nav{
+        width: 85%;
+        height: 100px;
+        background-color: black;
+        float: right;
+    }
+    nav ul{
+        float: right;
+        font-size: 30px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 30px;
+        line-height: 60px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li ul li{
+        display: block;
+    }
+    nav ul ul{
+        display: none;
+    }
+    nav ul ul li{
+        font-size: 25px;
+        width: 200px;
+        line-height: 30px;
+        position: relative;
+    }
+    nav ul li:hover  ul{
+        display: block;
+        background-color: black;
+    }
+    nav ul li:hover a{
+        color: lightseagreen;
+    }
+    nav ul ul ul{
+        top: 0px;
+        left: 200px;
+    }
+    nav ul ul li:hover a{
+        color: lightcoral;
+    }
+    nav ul ul ul li{
+        width: 150px;
+    }
+    .pizza{
+        position: absolute;
+    
+    }
+    .pizza li{
+        display: none;
+    }
+    ul li ul li:hover .pizza li{
+        display: block;
+    }
+    .burger{
+        position: absolute;
+    
+    }
+    .burger li{
+        display: none;
+    }
+    ul li ul li:hover .burger li{
+        display: block;
+    }
+    .dosa{
+        position: absolute;
+    
+    }
+    .dosa li{
+        display: none;
+    }
+    ul li ul li:hover .dosa li{
+        display: block;
+    }
+    .sandwich{
+        position: absolute;
+    }
+    .sandwich li{
+        display: none;
+    }
+    ul li ul li:hover .sandwich li{
+        display: block;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pasta.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+
+                <li><a href="">About</a></li>
+
+                <li>
+                    <a href="">menu</a><BR>
+                <ul>
+                    <li><a href="">PIZZA</a>
+                        <ul class="pizza">
+                            <li><a href="">Margherita</a></li>
+                            <li><a href="">Sweet corn</a></li>
+                            <li><a href="">Italian</a></li>
+                            <li><a href="">7 Cheese</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">BURGER</a>
+                        <ul class="burger">
+                            <li><a href="">Aloo-tikki</a></li>
+                            <li><a href="">pery-pery Delight</a></li>
+                            <li><a href="">Veg. Schezvan</a></li>
+                            <li><a href="">Paneer burger</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">DOSA</a>
+                        <ul class="dosa">
+                            <li><a href="">Masala dosa</a></li>
+                            <li><a href="">Mysore masala</a></li>
+                            <li><a href="">Zini-roll</a></li>
+                            <li><a href="">Chesse paneer</a></li>    
+                        </ul>
+                    </li>
+
+                    <li><a href="">SANDWICH</a>
+                        <ul class="sandwich">
+                            <li><a href="">Veg. grilled</a></li>
+                            <li><a href="">Veg. cheese</a></li>
+                            <li><a href="">Corn cheese</a></li>
+                            <li><a href="">Pasta cheese</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                </li> 
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

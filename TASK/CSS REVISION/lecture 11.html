@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 11</title>
+    <style>
+        h3{
+            display: none;
+        }
+        h2{
+            visibility: hidden;
+        }
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+        .after{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .after::after{
+            content: "";
+            width: 0px;
+            height: 300px;
+            background-color: palevioletred;
+            position: absolute;
+            display: inline-block;
+            transition: 5s;
+            top: 68px;
+            left: 120px;
+        }
+        .after:hover::after{
+            width: 300px;
+        }
+        .dropdown{
+            width: 250px;
+            height: 300px;
+            /* border: 1px solid black; */
+        }
+        .dropdown button{
+            width: 100%;
+            height: 50px;
+            font-size: 25px;
+        }
+        .dropdown a{
+            display: none;
+            text-decoration: none;
+            padding: 5px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .dropdown:hover a{
+            display: block;
+            transition: 5s;
+        }
+        .before{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .before::before{
+            content: "";
+            width: 0px;
+            height: 300px;
+            background-color: palevioletred;
+            position: absolute;
+            display: inline-block;
+            transition: 5s;
+            top: 68px;
+            left: 72.7%;
+        }
+        .before h1{
+            position: relative;
+        }
+        .before:hover::before{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h3>KRUPALI</h3>
+    <h2>KRUPALI</h2>
+    
+    <div class="main">
+        <div class="after">
+            <h1>WEB-DESIGN</h1>
+        </div>
+        
+        <div class="dropdown">
+            <button>Courses</button>
+            <a href="">HTML</a>
+            <a href="">HTML 5</a>
+            <a href="">CSS</a>
+            <a href="">CSS 3</a>
+            <a href="">JAVA-SCRIPT</a>
+            <a href="">J-QUARY</a>
+            <a href="">BOOTSTRAP</a>
+            <a href="">PHP</a>
+        </div>
+        <div class="before">
+            <h1>WEB-DESIGN</h1>
+        </div>
+    </div>
+</body>
+</html>

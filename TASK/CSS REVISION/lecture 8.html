@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 8</title>
+    <style>
+        p::first-line{
+            font-size: 30px;
+            color: purple;
+        }
+        div{
+            width: 50px;
+            height: 50px;
+            background-color: purple;
+            border-radius: 50%;
+            margin-top: 200px;
+            margin-left: 50%;
+            animation: text;
+            animation-duration: 5s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+        @keyframes text{
+            0%{
+                top: 0px;
+                left: 0px;
+                background-color: red;
+            }
+            20%{
+                top: 0px;
+                left: 100px;
+                background-color: palevioletred;
+            }
+            40%{
+                top: 300px;
+                left: 300px;
+                background-color: teal;
+            }
+            60%{
+                top: 600px;
+                left: 500px;
+                background-color: yellowgreen;
+            }
+            80%{
+                top: 300px;
+                left: 700px;
+                background-color: blue;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                background-color: purple;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, itaque deserunt quis veritatis, quod quaerat fugit mollitia sequi voluptates autem voluptatem atque repellat quae libero ut ab accusamus. Ea, corrupti.</p>
+    <div></div>
+</body>
+</html>

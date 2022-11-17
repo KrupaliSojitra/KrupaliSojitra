@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 12</title>
+    <style>
+        div{
+            height: 800px;
+            width: 100%;
+            position: absolute;
+            background-image: url(baby-natur.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 80%;
+            animation-name: changeimg;
+            animation-duration: 5s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+     @keyframes changeimg{
+        0%{
+            background-image: url(baby-natur.jpg);
+        }
+        20%{
+            background-image: url(butterfly.jpg);
+        }
+        40%{
+            background-image: url(girl.jpg);
+        }
+        60%{
+            background-image: url(valley.jpg);
+        }
+        80%{
+            background-image: url(car.jpg);
+        }
+        100%{
+            background-image: url(earth.jpg);
+        }
+     }  
+     
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
