@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Grid</title>
+</head>
+<style>
+    .main{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 20px;
+    }
+.col1{
+    background-color: aqua;
+}
+.col2{
+    background-color: palevioletred;
+}
+.col3{
+    background-color: paleturquoise;
+}
+.col4{
+    background-color: lightpink;
+}
+.col5{
+    background-color: purple;
+}
+.col6{
+    background-color: plum;
+}
+@media(max-width:720px){
+    .main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:480px){
+    .main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+</style>
+<body>
+    <div class="main">
+        <div class="col1">
+            This is Div1.
+        </div>
+        <div class="col2">
+            This is Div2.
+        </div>
+        <div class="col3">
+            This is Div3.
+        </div>
+        <div class="col4">
+            This is Div4.
+        </div>
+        <div class="col5">
+            This is Div5.
+        </div>
+        <div class="col6">
+            This is Div6.
+        </div>
+    </div>
+</body>
+</html>
