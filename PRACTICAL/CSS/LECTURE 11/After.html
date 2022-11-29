@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After</title>
+    <style>
+        a{
+            font-size: 30px;
+            text-decoration: none;
+            color: palevioletred;
+        }
+        a::after{
+            content: "";
+            width: 0px;
+            height: 3px;
+            background: purple;
+            display: block;
+            margin: auto;
+            transition: 5s;
+        }
+        a:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <a href="">Cloths</a>
+    <a href="">Saree</a>
+    <a href="">Dress</a>
+    <a href="">Watch</a>
+    <a href="">Shoes</a>
+    <a href="">Mobile</a>
+    <a href="">Bag</a>
+</body>
+</html>
