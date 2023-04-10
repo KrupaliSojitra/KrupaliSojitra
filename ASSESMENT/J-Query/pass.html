@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="pass.css">
+  <!-- password_strength -->
+  <script type="text/javascript" src="password_strength/password_strength_lightweight.js"></script>
+  <link rel="stylesheet" type="text/css" href="password_strength/password_strength.css">
+  <script src="pass.js"></script>
+
+  <title>password</title>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Password Verification</h1>
+    <form id="login">
+      <ul>
+        <li>
+          <label for="username">Username:</label>
+          <span><input id="username" name="username" type="text"></span>
+        </li>
+        <li>
+          <label for="pswd">Password:</label>
+          <span><input id="pswd" type="password" name="pswd"></span>
+        </li>
+        <li>
+          <button type="submit">Register</button>
+        </li>
+      </ul>
+    </form>
+
+    <div id="pswd_info" style="display: none;">
+      <h4>Password must contain:</h4>
+      <ul>
+        <li id="letter" class="valid">At least <strong>one letter</strong></li>
+        <li id="capital" class="invalid">At least <strong>one capital letter</strong></li>
+        <li id="number" class="invalid">At least <strong>one number</strong></li>
+        <li id="length" class="invalid">At least <strong>8 characters</strong></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
